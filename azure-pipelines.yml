@@ -19,7 +19,7 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Free Trial(5c53eb90-5541-4ce8-a4be-53d9133d064e)'
     appType: 'webAppLinux'
-    WebAppName: 
+    WebAppName: 'webappcore112'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
   displayName: 'dotnet build $(buildConfiguration)'
 
